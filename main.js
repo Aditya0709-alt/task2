@@ -18,7 +18,6 @@ $('.owl-carousel').owlCarousel({
     }
 })
 
-// For Desktop Version 
 
 function sectionOne() {
 gsap.from(".circle-text-heading1,.circle-text-para1,.block-a-notice1", {
