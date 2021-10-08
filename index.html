@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-2</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- <script src="https://kit.fontawesome.com/3362ed1e66.js" crossorigin="anonymous"></script> -->
+    <!-- Gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+    <!-- Owl Carousel for Mobile Version-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="crossorigin="anonymous" />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="crossorigin="anonymous"></script> 
+</head>
+<body>
+    <div class="desktop-view-display-container"></div>
+    <div class="desktop-view">
+        
+        <section id="sectionOne">
+            <div class="page">
+                <div class="block-a block-a-page1">
+                    <div class="circle-text">
+                        <h1 class="circle-text-heading1">25M+ Downloads</h1>
+                        <p class="circle-text-para1">an appstore & google playstore</p>
+                    </div>
+                    <div class="circle circle-page1">
+                        <svg width="350" height="350" viewBox="0 0 414 414" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4" d="M84.2 85C115.5 53.5 158.9 34 206.9 34C302.4 34 379.9 111.5 379.9 207C379.9 302.5 302.4 380 206.9 380C159.1 380 115.9 360.6 84.6 329.3" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M84.2 85C115.5 53.5 158.9 34 206.9 34C302.4 34 379.9 111.5 379.9 207C379.9 302.5 302.4 380 206.9 380C159.1 380 115.9 360.6 84.6 329.3" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="0 1000"/>
+                            <path d="M84 80C80.7 80 78 82.7 78 86C78 89.3 80.7 92 84 92C87.3 92 90 89.3 90 86C90 82.7 87 80 84 80Z" fill="#0092FF"/>
+                            <path d="M84 80C80.7 80 78 82.7 78 86C78 89.3 80.7 92 84 92C87.3 92 90 89.3 90 86C90 82.7 87 80 84 80Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M206.8 29C203.5 29 200.8 31.7 200.8 35C200.8 38.3 203.5 41 206.8 41C210.1 41 212.8 38.3 212.8 35C212.8 31.7 210.1 29 206.8 29Z" fill="rgb(116, 114, 114)"/>
+                            <path d="M206.8 29C203.5 29 200.8 31.7 200.8 35C200.8 38.3 203.5 41 206.8 41C210.1 41 212.8 38.3 212.8 35C212.8 31.7 210.1 29 206.8 29Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M332 85C328.7 85 326 87.7 326 91C326 94.3 328.7 97 332 97C335.3 97 338 94.3 338 91C338 87.7 335 85 332 85Z" fill="rgb(116, 114, 114)"/>
+                            <path d="M332 85C328.7 85 326 87.7 326 91C326 94.3 328.7 97 332 97C335.3 97 338 94.3 338 91C338 87.7 335 85 332 85Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M380 205C376.7 205 374 207.7 374 211C374 214.3 376.7 217 380 217C383.3 217 386 214.3 386 211C386 207.7 383 205 380 205Z" fill="rgb(116, 114, 114)"/>
+                            <path d="M380 205C376.7 205 374 207.7 374 211C374 214.3 376.7 217 380 217C383.3 217 386 214.3 386 211C386 207.7 383 205 380 205Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M335 315C331.7 315 329 317.7 329 321C329 324.3 331.7 327 335 327C338.3 327 341 324.3 341 321C341 317.7 340 315 335 315Z" fill="rgb(116, 114, 114)"/>
+                            <path d="M335 315C331.7 315 329 317.7 329 321C329 324.3 331.7 327 335 327C338.3 327 341 324.3 341 321C341 317.7 340 315 335 315Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M210 375C206.7 375 204 377.7 204 381C204 384.3 206.7 387 210 387C213.3 387 216 384.3 216 381C216 377.7 215 375 210 375Z" fill="rgb(116, 114, 114)"/>
+                            <path d="M210 375C206.7 375 204 377.7 204 381C204 384.3 206.7 387 210 387C213.3 387 216 384.3 216 381C216 377.7 215 375 210 375Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M88 324C84.7 324 82 326.7 82 330C82 333.3 84.7 336 88 336C91.3 336 94 333.3 94 330C94 326.7 92 324 88 324Z" fill="rgb(116, 114, 114)"/>
+                            <path d="M88 324C84.7 324 82 326.7 82 330C82 333.3 84.7 336 88 336C91.3 336 94 333.3 94 330C94 326.7 92 324 88 324Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <img src="../img/world-communication-awards-for-best-digital-experience.png" class="block-a-page1-img"/>
+                        <h1 class="block-a-heading1">ABC 123</h1>
+                        <p class="block-a-para1">We are the best web development</br>company in the world</p>
+                        <span class="block-a-notice1">View Case Study <i class="bi bi-arrow-right"></i></span>
+                        <span class="block-a-skip">S K I P</span>
+                    </div>
+                </div>
+                <div class="block-b block-b-page1">
+                    <img src="../img/nexgtv-entertainment-mobile-app-development.png" class="block-b-page1-1-img"/>
+                    <img src="../img/nexgtv-mobile-app-ui-design.png" class="block-b-page1-2-img"/>
+                </div>
+            </div>
+        </section>
+        <section id="sectionTwo">
+            <div class="page">
+                <div class="block-a block-a-page2">
+                    <div class="circle-text">
+                        <p class="circle-text-para2 text-start">The Next Big</p>
+                        <h1 class="circle-text-heading2 text-center">Blockchain</h1>
+                        <p class="circle-text-para2">Revolution</p>
+                    </div>
+                    <div class="circle circle-page2">
+                        <svg width="350" height="350" viewBox="0 0 414 414" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4" d="M84.2 85C115.5 53.5 158.9 34 206.9 34C302.4 34 379.9 111.5 379.9 207C379.9 302.5 302.4 380 206.9 380C159.1 380 115.9 360.6 84.6 329.3" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M84.2 85C115.5 53.5 158.9 34 206.9 34C302.4 34 379.9 111.5 379.9 207C379.9 302.5 302.4 380 206.9 380C159.1 380 115.9 360.6 84.6 329.3" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="140 1000"/>
+                            <path d="M84 80C80.7 80 78 82.7 78 86C78 89.3 80.7 92 84 92C87.3 92 90 89.3 90 86C90 82.7 87 80 84 80Z" fill="#0092FF"/>
+                            <path d="M84 80C80.7 80 78 82.7 78 86C78 89.3 80.7 92 84 92C87.3 92 90 89.3 90 86C90 82.7 87 80 84 80Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M206.8 29C203.5 29 200.8 31.7 200.8 35C200.8 38.3 203.5 41 206.8 41C210.1 41 212.8 38.3 212.8 35C212.8 31.7 210.1 29 206.8 29Z" fill="#0092FF"/>
+                            <path d="M206.8 29C203.5 29 200.8 31.7 200.8 35C200.8 38.3 203.5 41 206.8 41C210.1 41 212.8 38.3 212.8 35C212.8 31.7 210.1 29 206.8 29Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M332 85C328.7 85 326 87.7 326 91C326 94.3 328.7 97 332 97C335.3 97 338 94.3 338 91C338 87.7 335 85 332 85Z" fill="rgb(116, 114, 114)"/>
+                            <path d="M332 85C328.7 85 326 87.7 326 91C326 94.3 328.7 97 332 97C335.3 97 338 94.3 338 91C338 87.7 335 85 332 85Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M380 205C376.7 205 374 207.7 374 211C374 214.3 376.7 217 380 217C383.3 217 386 214.3 386 211C386 207.7 383 205 380 205Z" fill="rgb(116, 114, 114)"/>
+                            <path d="M380 205C376.7 205 374 207.7 374 211C374 214.3 376.7 217 380 217C383.3 217 386 214.3 386 211C386 207.7 383 205 380 205Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M335 315C331.7 315 329 317.7 329 321C329 324.3 331.7 327 335 327C338.3 327 341 324.3 341 321C341 317.7 340 315 335 315Z" fill="rgb(116, 114, 114)"/>
+                            <path d="M335 315C331.7 315 329 317.7 329 321C329 324.3 331.7 327 335 327C338.3 327 341 324.3 341 321C341 317.7 340 315 335 315Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M210 375C206.7 375 204 377.7 204 381C204 384.3 206.7 387 210 387C213.3 387 216 384.3 216 381C216 377.7 215 375 210 375Z" fill="rgb(116, 114, 114)"/>
+                            <path d="M210 375C206.7 375 204 377.7 204 381C204 384.3 206.7 387 210 387C213.3 387 216 384.3 216 381C216 377.7 215 375 210 375Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M88 324C84.7 324 82 326.7 82 330C82 333.3 84.7 336 88 336C91.3 336 94 333.3 94 330C94 326.7 92 324 88 324Z" fill="rgb(116, 114, 114)"/>
+                            <path d="M88 324C84.7 324 82 326.7 82 330C82 333.3 84.7 336 88 336C91.3 336 94 333.3 94 330C94 326.7 92 324 88 324Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h1 class="block-a-heading2">ABC 234</h1>
+                        <p class="block-a-para2">We are the best web development</br>company in the world</p>
+                        <span class="block-a-notice2">Coming Soon</span>
+                        <span class="block-a-skip">S K I P</span>
+                    </div>
+                </div>
+                <div class="block-b block-b-page2">
+                    <img src="../img/veme-blockchain-app-developed.png" class="block-b-page2-1-img"/>
+                    <img src="../img/veme-app-ui-design.png" class="block-b-page2-2-img"/>
+                </div>
+            </div>
+        </section>
+        <section id="sectionThree">
+            <div class="page">
+                <div class="block-a block-a-page3">
+                    <div class="circle-text">
+                        <p class="circle-text-para3 text-start">Powered by advance</p>
+                        <img src="../img/nasa-mobile-app.png" class="circle-text-page3-img"/>
+                        <p class="circle-text-para3">algorithms</p>
+                    </div>
+                    <div class="circle circle-page3">
+                        <svg width="350" height="350" viewBox="0 0 414 414" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4" d="M84.2 85C115.5 53.5 158.9 34 206.9 34C302.4 34 379.9 111.5 379.9 207C379.9 302.5 302.4 380 206.9 380C159.1 380 115.9 360.6 84.6 329.3" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M84.2 85C115.5 53.5 158.9 34 206.9 34C302.4 34 379.9 111.5 379.9 207C379.9 302.5 302.4 380 206.9 380C159.1 380 115.9 360.6 84.6 329.3" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="280 1000"/>
+                            <path d="M84 80C80.7 80 78 82.7 78 86C78 89.3 80.7 92 84 92C87.3 92 90 89.3 90 86C90 82.7 87 80 84 80Z" fill="#0092FF"/>
+                            <path d="M84 80C80.7 80 78 82.7 78 86C78 89.3 80.7 92 84 92C87.3 92 90 89.3 90 86C90 82.7 87 80 84 80Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M206.8 29C203.5 29 200.8 31.7 200.8 35C200.8 38.3 203.5 41 206.8 41C210.1 41 212.8 38.3 212.8 35C212.8 31.7 210.1 29 206.8 29Z" fill="#0092FF"/>
+                            <path d="M206.8 29C203.5 29 200.8 31.7 200.8 35C200.8 38.3 203.5 41 206.8 41C210.1 41 212.8 38.3 212.8 35C212.8 31.7 210.1 29 206.8 29Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M332 85C328.7 85 326 87.7 326 91C326 94.3 328.7 97 332 97C335.3 97 338 94.3 338 91C338 87.7 335 85 332 85Z" fill="#0092FF"/>
+                            <path d="M332 85C328.7 85 326 87.7 326 91C326 94.3 328.7 97 332 97C335.3 97 338 94.3 338 91C338 87.7 335 85 332 85Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M380 205C376.7 205 374 207.7 374 211C374 214.3 376.7 217 380 217C383.3 217 386 214.3 386 211C386 207.7 383 205 380 205Z" fill="rgb(116, 114, 114)"/>
+                            <path d="M380 205C376.7 205 374 207.7 374 211C374 214.3 376.7 217 380 217C383.3 217 386 214.3 386 211C386 207.7 383 205 380 205Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M335 315C331.7 315 329 317.7 329 321C329 324.3 331.7 327 335 327C338.3 327 341 324.3 341 321C341 317.7 340 315 335 315Z" fill="rgb(116, 114, 114)"/>
+                            <path d="M335 315C331.7 315 329 317.7 329 321C329 324.3 331.7 327 335 327C338.3 327 341 324.3 341 321C341 317.7 340 315 335 315Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M210 375C206.7 375 204 377.7 204 381C204 384.3 206.7 387 210 387C213.3 387 216 384.3 216 381C216 377.7 215 375 210 375Z" fill="rgb(116, 114, 114)"/>
+                            <path d="M210 375C206.7 375 204 377.7 204 381C204 384.3 206.7 387 210 387C213.3 387 216 384.3 216 381C216 377.7 215 375 210 375Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M88 324C84.7 324 82 326.7 82 330C82 333.3 84.7 336 88 336C91.3 336 94 333.3 94 330C94 326.7 92 324 88 324Z" fill="rgb(116, 114, 114)"/>
+                            <path d="M88 324C84.7 324 82 326.7 82 330C82 333.3 84.7 336 88 336C91.3 336 94 333.3 94 330C94 326.7 92 324 88 324Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h1 class="block-a-heading3">ABC 345</h1>
+                        <p class="block-a-para3">We are the best</br>web development company</br>in the world</p>
+                        <span class="block-a-notice3">Coming Soon</span>
+                        <span class="block-a-skip">S K I P</span>
+                    </div>
+                </div>
+                <div class="block-b block-b-page3">
+                    <img src="../img/nasa-fitness-tracking-mobile-app.png" class="block-b-page3-1-img"/>
+                    <img src="../img/measure-total-body-weight-through-fitness-app.png" class="block-b-page3-2-img"/>
+                </div>
+            </div>
+        </section>
+        <section id="sectionFour">
+            <div class="page">
+                <div class="block-a block-a-page4">
+                    <div class="circle-text">
+                        <p class="circle-text-para4 text-start">Redefining</p>
+                        <h1 class="circle-text-heading4 text-center">UX Strategy</h1>
+                        <p class="circle-text-para4">and UI design</p>
+                    </div>
+                    <div class="circle circle-page4">
+                        <svg width="350" height="350" viewBox="0 0 414 414" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4" d="M84.2 85C115.5 53.5 158.9 34 206.9 34C302.4 34 379.9 111.5 379.9 207C379.9 302.5 302.4 380 206.9 380C159.1 380 115.9 360.6 84.6 329.3" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M84.2 85C115.5 53.5 158.9 34 206.9 34C302.4 34 379.9 111.5 379.9 207C379.9 302.5 302.4 380 206.9 380C159.1 380 115.9 360.6 84.6 329.3" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="420 1000"/>
+                            <path d="M84 80C80.7 80 78 82.7 78 86C78 89.3 80.7 92 84 92C87.3 92 90 89.3 90 86C90 82.7 87 80 84 80Z" fill="#0092FF"/>
+                            <path d="M84 80C80.7 80 78 82.7 78 86C78 89.3 80.7 92 84 92C87.3 92 90 89.3 90 86C90 82.7 87 80 84 80Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M206.8 29C203.5 29 200.8 31.7 200.8 35C200.8 38.3 203.5 41 206.8 41C210.1 41 212.8 38.3 212.8 35C212.8 31.7 210.1 29 206.8 29Z" fill="#0092FF"/>
+                            <path d="M206.8 29C203.5 29 200.8 31.7 200.8 35C200.8 38.3 203.5 41 206.8 41C210.1 41 212.8 38.3 212.8 35C212.8 31.7 210.1 29 206.8 29Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M332 85C328.7 85 326 87.7 326 91C326 94.3 328.7 97 332 97C335.3 97 338 94.3 338 91C338 87.7 335 85 332 85Z" fill="#0092FF"/>
+                            <path d="M332 85C328.7 85 326 87.7 326 91C326 94.3 328.7 97 332 97C335.3 97 338 94.3 338 91C338 87.7 335 85 332 85Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M380 205C376.7 205 374 207.7 374 211C374 214.3 376.7 217 380 217C383.3 217 386 214.3 386 211C386 207.7 383 205 380 205Z" fill="#0092FF"/>
+                            <path d="M380 205C376.7 205 374 207.7 374 211C374 214.3 376.7 217 380 217C383.3 217 386 214.3 386 211C386 207.7 383 205 380 205Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M335 315C331.7 315 329 317.7 329 321C329 324.3 331.7 327 335 327C338.3 327 341 324.3 341 321C341 317.7 340 315 335 315Z" fill="rgb(116, 114, 114)"/>
+                            <path d="M335 315C331.7 315 329 317.7 329 321C329 324.3 331.7 327 335 327C338.3 327 341 324.3 341 321C341 317.7 340 315 335 315Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M210 375C206.7 375 204 377.7 204 381C204 384.3 206.7 387 210 387C213.3 387 216 384.3 216 381C216 377.7 215 375 210 375Z" fill="rgb(116, 114, 114)"/>
+                            <path d="M210 375C206.7 375 204 377.7 204 381C204 384.3 206.7 387 210 387C213.3 387 216 384.3 216 381C216 377.7 215 375 210 375Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M88 324C84.7 324 82 326.7 82 330C82 333.3 84.7 336 88 336C91.3 336 94 333.3 94 330C94 326.7 92 324 88 324Z" fill="rgb(116, 114, 114)"/>
+                            <path d="M88 324C84.7 324 82 326.7 82 330C82 333.3 84.7 336 88 336C91.3 336 94 333.3 94 330C94 326.7 92 324 88 324Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h1 class="block-a-heading4">ABC 456</h1>
+                        <p class="block-a-para4">We are the best</br>web development company</br>in the world</p>
+                        <span class="block-a-notice4">View Case Study <i class="bi bi-arrow-right"></i></span>
+                        <span class="block-a-skip">S K I P</span>
+                    </div>
+                </div>
+                <div class="block-b block-b-page4">
+                    <img src="../img/domi-img1.png" class="block-b-page4-1-img"/>
+                    <img src="../img/ux-strategy-for-mobile-app-devlopment.png" class="block-b-page4-2-img"/>
+                    <img src="../img/pizza_box.png" class="block-b-page4-3-img"/>
+                    <img src="../img/dominos-bread.png" class="block-b-page4-4-img"/>
+                    <img src="../img/dominos-bread1.png" class="block-b-page4-5-img"/>
+                </div>
+            </div>
+        </section>
+        <section id="sectionFive">
+            <div class="page">
+                <div class="block-a block-a-page5">
+                    <div class="circle-text">
+                        <p class="circle-text-para5 text-start">Text Headline</p>
+                        <h1 class="circle-text-heading5 text-center">Text Headline</h1>
+                        <p class="circle-text-para5">Footer headline</p>
+                    </div>
+                    <div class="circle circle-page5">
+                        <svg width="350" height="350" viewBox="0 0 414 414" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4" d="M84.2 85C115.5 53.5 158.9 34 206.9 34C302.4 34 379.9 111.5 379.9 207C379.9 302.5 302.4 380 206.9 380C159.1 380 115.9 360.6 84.6 329.3" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M84.2 85C115.5 53.5 158.9 34 206.9 34C302.4 34 379.9 111.5 379.9 207C379.9 302.5 302.4 380 206.9 380C159.1 380 115.9 360.6 84.6 329.3" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="540 1000"/>
+                            <path d="M84 80C80.7 80 78 82.7 78 86C78 89.3 80.7 92 84 92C87.3 92 90 89.3 90 86C90 82.7 87 80 84 80Z" fill="#0092FF"/>
+                            <path d="M84 80C80.7 80 78 82.7 78 86C78 89.3 80.7 92 84 92C87.3 92 90 89.3 90 86C90 82.7 87 80 84 80Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M206.8 29C203.5 29 200.8 31.7 200.8 35C200.8 38.3 203.5 41 206.8 41C210.1 41 212.8 38.3 212.8 35C212.8 31.7 210.1 29 206.8 29Z" fill="#0092FF"/>
+                            <path d="M206.8 29C203.5 29 200.8 31.7 200.8 35C200.8 38.3 203.5 41 206.8 41C210.1 41 212.8 38.3 212.8 35C212.8 31.7 210.1 29 206.8 29Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M332 85C328.7 85 326 87.7 326 91C326 94.3 328.7 97 332 97C335.3 97 338 94.3 338 91C338 87.7 335 85 332 85Z" fill="#0092FF"/>
+                            <path d="M332 85C328.7 85 326 87.7 326 91C326 94.3 328.7 97 332 97C335.3 97 338 94.3 338 91C338 87.7 335 85 332 85Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M380 205C376.7 205 374 207.7 374 211C374 214.3 376.7 217 380 217C383.3 217 386 214.3 386 211C386 207.7 383 205 380 205Z" fill="#0092FF"/>
+                            <path d="M380 205C376.7 205 374 207.7 374 211C374 214.3 376.7 217 380 217C383.3 217 386 214.3 386 211C386 207.7 383 205 380 205Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M335 315C331.7 315 329 317.7 329 321C329 324.3 331.7 327 335 327C338.3 327 341 324.3 341 321C341 317.7 340 315 335 315Z" fill="#0092FF"/>
+                            <path d="M335 315C331.7 315 329 317.7 329 321C329 324.3 331.7 327 335 327C338.3 327 341 324.3 341 321C341 317.7 340 315 335 315Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M210 375C206.7 375 204 377.7 204 381C204 384.3 206.7 387 210 387C213.3 387 216 384.3 216 381C216 377.7 215 375 210 375Z" fill="rgb(116, 114, 114)"/>
+                            <path d="M210 375C206.7 375 204 377.7 204 381C204 384.3 206.7 387 210 387C213.3 387 216 384.3 216 381C216 377.7 215 375 210 375Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M88 324C84.7 324 82 326.7 82 330C82 333.3 84.7 336 88 336C91.3 336 94 333.3 94 330C94 326.7 92 324 88 324Z" fill="rgb(116, 114, 114)"/>
+                            <path d="M88 324C84.7 324 82 326.7 82 330C82 333.3 84.7 336 88 336C91.3 336 94 333.3 94 330C94 326.7 92 324 88 324Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h1 class="block-a-heading5">ABC 567</h1>
+                        <p class="block-a-para5">We are the best AR</br>development company</br>in the world</p>
+                        <span class="block-a-notice5">View Case Study <i class="bi bi-arrow-right"></i></span>
+                        <span class="block-a-skip">S K I P</span>
+                    </div>
+                </div>
+                <div class="block-b block-b-page5">
+                    <img src="../img/karavan-social-networking-app-screen.png" class="block-b-page5-1-img"/>
+                    <img src="../img/karavan_2.png" class="block-b-page5-2-img"/>
+                    <img src="../img/social-networking-app-case-study.png" class="block-b-page5-3-img"/>
+                    <img src="../img/karavan-social-networking-app-screen-2.png" class="block-b-page5-4-img"/>
+                    <img src="../img/developers-for-social-media-app.png" class="block-b-page5-5-img"/>
+                </div>
+            </div>
+        </section>
+        <section id="sectionSix">
+            <div class="page">
+                <div class="block-a block-a-page6">
+                    <div class="circle-text">
+                        <p class="circle-text-para6 text-start">Developing ERP Solution for</p>
+                        <h1 class="circle-text-heading6 text-center">Text Headline</h1>
+                        <p class="circle-text-para6">in furniture industry</p>
+                    </div>
+                    <div class="circle circle-page6">
+                        <svg width="350" height="350" viewBox="0 0 414 414" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4" d="M84.2 85C115.5 53.5 158.9 34 206.9 34C302.4 34 379.9 111.5 379.9 207C379.9 302.5 302.4 380 206.9 380C159.1 380 115.9 360.6 84.6 329.3" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M84.2 85C115.5 53.5 158.9 34 206.9 34C302.4 34 379.9 111.5 379.9 207C379.9 302.5 302.4 380 206.9 380C159.1 380 115.9 360.6 84.6 329.3" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="680 1000"/>
+                            <path d="M84 80C80.7 80 78 82.7 78 86C78 89.3 80.7 92 84 92C87.3 92 90 89.3 90 86C90 82.7 87 80 84 80Z" fill="#0092FF"/>
+                            <path d="M84 80C80.7 80 78 82.7 78 86C78 89.3 80.7 92 84 92C87.3 92 90 89.3 90 86C90 82.7 87 80 84 80Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M206.8 29C203.5 29 200.8 31.7 200.8 35C200.8 38.3 203.5 41 206.8 41C210.1 41 212.8 38.3 212.8 35C212.8 31.7 210.1 29 206.8 29Z" fill="#0092FF"/>
+                            <path d="M206.8 29C203.5 29 200.8 31.7 200.8 35C200.8 38.3 203.5 41 206.8 41C210.1 41 212.8 38.3 212.8 35C212.8 31.7 210.1 29 206.8 29Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M332 85C328.7 85 326 87.7 326 91C326 94.3 328.7 97 332 97C335.3 97 338 94.3 338 91C338 87.7 335 85 332 85Z" fill="#0092FF"/>
+                            <path d="M332 85C328.7 85 326 87.7 326 91C326 94.3 328.7 97 332 97C335.3 97 338 94.3 338 91C338 87.7 335 85 332 85Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M380 205C376.7 205 374 207.7 374 211C374 214.3 376.7 217 380 217C383.3 217 386 214.3 386 211C386 207.7 383 205 380 205Z" fill="#0092FF"/>
+                            <path d="M380 205C376.7 205 374 207.7 374 211C374 214.3 376.7 217 380 217C383.3 217 386 214.3 386 211C386 207.7 383 205 380 205Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M335 315C331.7 315 329 317.7 329 321C329 324.3 331.7 327 335 327C338.3 327 341 324.3 341 321C341 317.7 340 315 335 315Z" fill="#0092FF"/>
+                            <path d="M335 315C331.7 315 329 317.7 329 321C329 324.3 331.7 327 335 327C338.3 327 341 324.3 341 321C341 317.7 340 315 335 315Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M210 375C206.7 375 204 377.7 204 381C204 384.3 206.7 387 210 387C213.3 387 216 384.3 216 381C216 377.7 215 375 210 375Z" fill="#0092FF"/>
+                            <path d="M210 375C206.7 375 204 377.7 204 381C204 384.3 206.7 387 210 387C213.3 387 216 384.3 216 381C216 377.7 215 375 210 375Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M88 324C84.7 324 82 326.7 82 330C82 333.3 84.7 336 88 336C91.3 336 94 333.3 94 330C94 326.7 92 324 88 324Z" fill="rgb(116, 114, 114)"/>
+                            <path d="M88 324C84.7 324 82 326.7 82 330C82 333.3 84.7 336 88 336C91.3 336 94 333.3 94 330C94 326.7 92 324 88 324Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h1 class="block-a-heading6">ABC 678</h1>
+                        <p class="block-a-para6">Best since 2017, we offer wide range of</br>web development and app development</p>
+                        <span class="block-a-notice6">View Case Study <i class="bi bi-arrow-right"></i></span>
+                        <span class="block-a-skip">S K I P</span>
+                    </div>
+                </div>
+                <div class="block-b block-b-page6">
+                    <img src="../img/erp-app-development-service.png" class="block-b-page6-1-img"/>
+                </div>
+            </div>
+        </section>
+        <section id="sectionSeven">
+            <div class="page">
+                <div class="block-a block-a-page7">
+                    <div class="circle-text">
+                        <p class="circle-text-para7 text-start">Biggest Classifieds</p>
+                        <h1 class="circle-text-heading7 text-center">East Asia</h1>
+                        <p class="circle-text-para7">Countries</p>
+                    </div>
+                    <div class="circle circle-page7">
+                        <svg width="350" height="350" viewBox="0 0 414 414" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.4" d="M84.2 85C115.5 53.5 158.9 34 206.9 34C302.4 34 379.9 111.5 379.9 207C379.9 302.5 302.4 380 206.9 380C159.1 380 115.9 360.6 84.6 329.3" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M84.2 85C115.5 53.5 158.9 34 206.9 34C302.4 34 379.9 111.5 379.9 207C379.9 302.5 302.4 380 206.9 380C159.1 380 115.9 360.6 84.6 329.3" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="820 1000"/>
+                            <path d="M84 80C80.7 80 78 82.7 78 86C78 89.3 80.7 92 84 92C87.3 92 90 89.3 90 86C90 82.7 87 80 84 80Z" fill="#0092FF"/>
+                            <path d="M84 80C80.7 80 78 82.7 78 86C78 89.3 80.7 92 84 92C87.3 92 90 89.3 90 86C90 82.7 87 80 84 80Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M206.8 29C203.5 29 200.8 31.7 200.8 35C200.8 38.3 203.5 41 206.8 41C210.1 41 212.8 38.3 212.8 35C212.8 31.7 210.1 29 206.8 29Z" fill="#0092FF"/>
+                            <path d="M206.8 29C203.5 29 200.8 31.7 200.8 35C200.8 38.3 203.5 41 206.8 41C210.1 41 212.8 38.3 212.8 35C212.8 31.7 210.1 29 206.8 29Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M332 85C328.7 85 326 87.7 326 91C326 94.3 328.7 97 332 97C335.3 97 338 94.3 338 91C338 87.7 335 85 332 85Z" fill="#0092FF"/>
+                            <path d="M332 85C328.7 85 326 87.7 326 91C326 94.3 328.7 97 332 97C335.3 97 338 94.3 338 91C338 87.7 335 85 332 85Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M380 205C376.7 205 374 207.7 374 211C374 214.3 376.7 217 380 217C383.3 217 386 214.3 386 211C386 207.7 383 205 380 205Z" fill="#0092FF"/>
+                            <path d="M380 205C376.7 205 374 207.7 374 211C374 214.3 376.7 217 380 217C383.3 217 386 214.3 386 211C386 207.7 383 205 380 205Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M335 315C331.7 315 329 317.7 329 321C329 324.3 331.7 327 335 327C338.3 327 341 324.3 341 321C341 317.7 340 315 335 315Z" fill="#0092FF"/>
+                            <path d="M335 315C331.7 315 329 317.7 329 321C329 324.3 331.7 327 335 327C338.3 327 341 324.3 341 321C341 317.7 340 315 335 315Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M210 375C206.7 375 204 377.7 204 381C204 384.3 206.7 387 210 387C213.3 387 216 384.3 216 381C216 377.7 215 375 210 375Z" fill="#0092FF"/>
+                            <path d="M210 375C206.7 375 204 377.7 204 381C204 384.3 206.7 387 210 387C213.3 387 216 384.3 216 381C216 377.7 215 375 210 375Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M88 324C84.7 324 82 326.7 82 330C82 333.3 84.7 336 88 336C91.3 336 94 333.3 94 330C94 326.7 92 324 88 324Z" fill="#0092FF"/>
+                            <path d="M88 324C84.7 324 82 326.7 82 330C82 333.3 84.7 336 88 336C91.3 336 94 333.3 94 330C94 326.7 92 324 88 324Z" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <img src="../img/mobile-app-of-the-year-by-entrepreneur.png" class="block-a-page7-img"/>
+                        <h1 class="block-a-heading7">ABC 234</h1>
+                        <p class="block-a-para7">We are the best web development</br>company in the world</p>
+                        <span class="block-a-notice7">Coming Soon</span>
+                        <span class="block-a-skip">S K I P</span>
+                    </div>
+                </div>
+                <div class="block-b block-b-page7">
+                    <img src="../img/melltoo-img2.png" class="block-b-page7-1-img"/>
+                    <img src="../img/melltoo-img1.png" class="block-b-page7-2-img"/>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="mobile-view">
+        <div class="row">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="mobile-page-top1">
+                        <img src="../img/nexgtv-entertainment-mobile-app-development.png" class="mobile-top-page1-img-1" />
+                        <img src="../img/nexgtv-mobile-app-ui-design.png" class="mobile-top-page1-img-2" />
+                    </div>
+                    <div class="mobile-page-bottom1-with-img">
+                        <div class="mobile-bottom-page1-img">
+                            <img src="../img/world-communication-awards-for-best-digital-experience.png" />
+                        </div>
+                        <h1 class="mobile-heading">ABC 123</h1>
+                        <p class="mobile-para">This is sample text for ABC 123. This is sample text for ABC 123.</p>
+                        <span>View Case Study <i class="bi bi-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="mobile-page-top2">
+                        <img src="../img/veme-blockchain-app-developed.png" class="mobile-top-page2-img-1" />
+                        <img src="../img/veme-app-ui-design.png" class="mobile-top-page2-img-2" />
+                    </div>
+                    <div class="mobile-page-bottom2-no-img">
+                        <h1 class="mobile-heading">ABC 1</h1>
+                        <p class="mobile-para">This is sample text for ABC 1</p>
+                        <span>CASE STUDY -> <button class="mobile-bottom-page2-btn">Coming Soon</button></span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="mobile-page-top3">
+                        <img src="../img/nasa-fitness-tracking-mobile-app.png" class="mobile-top-page3-img-1" />
+                        <img src="../img/measure-total-body-weight-through-fitness-app.png" class="mobile-top-page3-img-2" />
+                    </div>
+                    <div class="mobile-page-bottom3-no-img">
+                        <h1 class="mobile-heading">ABC 2</h1>
+                        <p class="mobile-para">This is sample text for ABC 2</p>
+                        <span>CASE STUDY  ->  <button class="mobile-bottom-page3-btn">Coming Soon</button></span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="mobile-page-top4">
+                        <img src="../img/domi-img1.png" class="mobile-top-page4-img-1" />
+                        <img src="../img/ux-strategy-for-mobile-app-devlopment.png" class="mobile-top-page4-img-2" />
+                        <img src="../img/pizza_box.png" class="mobile-top-page4-img-3" />
+                        <img src="../img/dominos-masala.png" class="mobile-top-page4-img-4" />
+                        <img src="../img/dominos-bread1.png" class="mobile-top-page4-img-5" />
+                    </div>
+                    <div class="mobile-page-bottom4-no-img">
+                        <h1 class="mobile-heading">ABC 3</h1>
+                        <p class="mobile-para">This is sample text for ABC 3</p>
+                        <span>View Case Study <i class="bi bi-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="mobile-page-top5">
+                        <img src="../img/karavan_2.png" class="mobile-top-page5-img-1" />
+                        <img src="../img/social-networking-app-case-study.png" class="mobile-top-page5-img-2" />
+                        <img src="../img/karavan-social-networking-app-screen-2.png" class="mobile-top-page5-img-3" />
+                        <img src="../img/karavan-social-networking-app-screen.png" class="mobile-top-page5-img-4" />
+                        <img src="../img/developers-for-social-media-app.png" class="mobile-top-page5-img-5" />
+                    </div>
+                    <div class="mobile-page-bottom5-no-img">
+                        <h1 class="mobile-heading">ABC 4</h1>
+                        <p class="mobile-para">This is sample text for ABC 4</p>
+                        <span>View Case Study <i class="bi bi-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="mobile-page-top6">
+                        <img src="../img/erp-app-development-service.png" class="mobile-top-page6-img-1" />
+                    </div>
+                    <div class="mobile-page-bottom6-no-img">
+                        <h1 class="mobile-heading">ABC 4</h1>
+                        <p class="mobile-para">This is sample text for ABC 4</p>
+                        <span>View Case Study <i class="bi bi-arrow-right"></i></span>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="mobile-page-top7">
+                        <img src="../img/melltoo-img2.png" class="mobile-top-page7-img-1" />
+                        <img src="../img/melltoo-img1.png" class="mobile-top-page7-img-2" />
+                    </div>
+                    <div class="mobile-page-bottom7-with-img">
+                        <div class="mobile-bottom-page7-img">
+                            <img src="../img/mobile-app-of-the-year-by-entrepreneur.png" />
+                        </div>
+                        <h1 class="mobile-heading">XYZ 123</h1>
+                        <p class="mobile-para">This is sample text for XYZ 123.</p>
+                        <span>CASE STUDY  ->  <button class="mobile-bottom-page7-btn">Coming Soon</button></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

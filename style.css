@@ -1,0 +1,744 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "IBM Plex Sans";
+}
+
+/* This is styling for complete Desktop view */
+
+.page {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.floating-btn {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 50%;
+  font-size: 25px;
+  color: #ffffff;
+  background-color: #1aa7ec;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18), 0px 0px 2px rgba(0, 0, 0, 0.08);
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  z-index: 900;
+}
+.desktop-view-display-container {
+  height: 350vh;
+  z-index: 0;
+}
+.desktop-view {
+  top: 0;
+  left: 0;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+.hidding-page {
+  display: none;
+}
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+/* This is generalized settings for Desktop Pages */
+.block-a {
+  width: 45%;
+  height: 100vh;
+  padding: 20px 40px;
+  color: #ffffff;
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.block-b {
+  width: 55%;
+  height: 100vh;
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  height: 350px;
+  width: 350px;
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+  right: -100px;
+
+  z-index: 20;
+}
+.circle-text {
+  text-align: right;
+  background-color: transparent;
+  position: absolute;
+  top: 130px;
+  right: 0px;
+  z-index: 21;
+}
+.circle-text-heading1,
+.circle-text-heading2,
+.circle-text-heading3,
+.circle-text-heading4,
+.circle-text-heading5,
+.circle-text-heading6,
+.circle-text-heading7 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.circle-text-para1,
+.circle-text-para2,
+.circle-text-para3,
+.circle-text-para4,
+.circle-text-para5,
+.circle-text-para6,
+.circle-text-para7 {
+  font-size: 18px;
+  margin: 0px;
+}
+.block-a-heading1,
+.block-a-heading2,
+.block-a-heading3,
+.block-a-heading4,
+.block-a-heading5,
+.block-a-heading6,
+.block-a-heading7 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.block-a-para1,
+.block-a-para2,
+.block-a-para3,
+.block-a-para4,
+.block-a-para5,
+.block-a-para6,
+.block-a-para7 {
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+.block-a-skip {
+  float: right;
+  font-weight: 600;
+  position: relative;
+}
+
+/* This is Desktop Page 1 Styling */
+
+.block-a-page1,
+.circle-page1 {
+  background-color: #8502f7;
+}
+.block-a-page1-img {
+  width: 100%;
+  max-width: 250px;
+  margin-bottom: 15px;
+}
+.block-b-page1 {
+  overflow: hidden;
+}
+.block-b-page1-1-img {
+  height: 70%;
+
+  position: relative;
+  left: 55px;
+}
+.block-b-page1-2-img {
+  height: 70%;
+
+  position: relative;
+  left: -5px;
+}
+
+/* This is Desktop Page 2 Styling */
+
+.block-a-page2,
+.circle-page2 {
+  background-color: #0558ff;
+}
+.block-b-page2 {
+  background-color: #22007c;
+  overflow: hidden;
+}
+.block-b-page2-1-img {
+  height: 60%;
+
+  position: relative;
+  left: 35px;
+  bottom: -20%;
+}
+.block-b-page2-2-img {
+  height: 60%;
+
+  position: relative;
+  left: 40px;
+  top: -20%;
+}
+
+/* This is Desktop Page 3 Styling */
+
+.block-a-page3,
+.circle-page3 {
+  background-color: #111e6c;
+}
+.block-b-page3 {
+  background-color: #1034a6;
+  overflow: hidden;
+}
+.block-b-page3-1-img {
+  height: 65%;
+
+  position: relative;
+  left: 35px;
+  bottom: -16%;
+}
+.block-b-page3-2-img {
+  height: 65%;
+
+  position: relative;
+  left: 40px;
+  top: -35%;
+}
+
+/* This is Desktop Page 4 Styling */
+
+.block-a-page4 {
+  background-color: #19223d;
+}
+.circle-page4 {
+  background-color: #19213b;
+}
+.block-b-page4 {
+  background-color: #0e111a;
+  justify-content: start;
+  overflow: hidden;
+}
+.block-b-page4-1-img {
+  height: 55%;
+
+  position: relative;
+  left: 75px;
+  bottom: -25%;
+}
+.block-b-page4-2-img {
+  height: 55%;
+
+  position: relative;
+  left: 110px;
+  top: -15%;
+}
+.block-b-page4-3-img {
+  height: 40%;
+
+  position: absolute;
+  top: -80px;
+  left: 0px;
+}
+.block-b-page4-4-img {
+  height: 30%;
+
+  position: absolute;
+  top: -135px;
+  right: -20px;
+}
+.block-b-page4-5-img {
+  height: 40%;
+
+  position: absolute;
+  bottom: -90px;
+  right: -40px;
+}
+
+/* This is Desktop Page 5 Styling */
+
+.block-a-page5 {
+  background-color: #0071e6;
+}
+.circle-page5 {
+  background-color: #0071e6;
+}
+.block-b-page5 {
+  background-color: #00fff3;
+  overflow: hidden;
+}
+.block-b-page5-1-img {
+  height: 55%;
+
+  position: absolute;
+  left: 100px;
+  top: -90px;
+}
+.block-b-page5-2-img {
+  height: 55%;
+
+  position: absolute;
+  left: 105px;
+  bottom: -10%;
+}
+.block-b-page5-3-img {
+  height: 55%;
+
+  position: absolute;
+  top: -20px;
+  left: 295px;
+}
+.block-b-page5-4-img {
+  height: 58%;
+
+  position: absolute;
+  bottom: -150px;
+  left: 295px;
+}
+.block-b-page5-5-img {
+  height: 60%;
+
+  position: absolute;
+  left: 475px;
+  right: 0px;
+}
+
+/* This is Desktop Page 6 Styling */
+
+.block-a-page6,
+.circle-page6 {
+  background-color: #000068;
+}
+.block-b-page6 {
+  background-image: url("../img/interior.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+.block-b-page6-1-img {
+  width: 100%;
+
+  position: absolute;
+  left: 0px;
+}
+
+/* This is Desktop Page 7 Styling */
+
+.block-a-page7,
+.circle-page7 {
+  background-color: #01a368;
+}
+.block-a-page7-img {
+  width: 100%;
+  max-width: 250px;
+  margin-bottom: 15px;
+}
+.block-b-page7 {
+  background-color: #0cdc73;
+  overflow: hidden;
+}
+.block-b-page7-1-img {
+  height: 75%;
+
+  position: relative;
+  left: 75px;
+  bottom: -25%;
+  z-index: 2;
+}
+.block-b-page7-2-img {
+  height: 75%;
+
+  position: relative;
+  left: 5px;
+  bottom: -19%;
+}
+/* Styling based on Screen Widths */
+
+@media screen and (min-width: 930px) {
+  .desktop-view-display-container,
+  .desktop-view {
+    display: block;
+  }
+  .mobile-view {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  /* This is generalized settings for Mobile Pages */
+
+  .desktop-view-display-container,
+  .desktop-view {
+    display: none;
+  }
+  .mobile-view {
+    display: block;
+  }
+
+  /* This is styling for complete Mobile view */
+
+  .mobile-view {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+  }
+  .owl-nav {
+    display: none;
+    margin: 0px;
+  }
+  .owl-dots {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+  }
+  .owl-dots span {
+    background-color: rgba(126, 123, 123, 0.26);
+  }
+  .owl-dots .active span {
+    background-color: #ffffff !important;
+  }
+  .mobile-heading {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .mobile-para {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+
+  /* This is Mobile Page 1 Styling */
+
+  .mobile-page-top1 {
+    background-color: #ffffff;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile-page-bottom1-with-img {
+    display: block !important;
+    width: 100%;
+    background-color: #8502f7;
+    height: 50vh;
+    color: #ffffff;
+    padding: 0px 30px 30px 30px;
+  }
+  .mobile-bottom-page1-img {
+    background-color: white;
+    position: relative;
+    bottom: 10%;
+    min-width: 200px !important;
+    width: 40% !important;
+    max-width: 230px !important;
+    border-radius: 0px;
+    border: solid 2px #8502f7;
+  }
+  .mobile-bottom-page-1-img img {
+    width: 100%;
+  }
+  .mobile-top-page1-img-1 {
+    width: 50% !important;
+    max-width: 250px;
+    position: relative;
+    bottom: -25%;
+    right: -3%;
+  }
+  .mobile-top-page1-img-2 {
+    width: 50% !important;
+    max-width: 250px;
+    position: relative;
+    bottom: -25%;
+    right: 3%;
+  }
+
+  /* This is Mobile Page 2 Styling */
+
+  .mobile-page-top2 {
+    background-color: #22007c;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .mobile-page-bottom2-no-img {
+    display: block !important;
+    width: 100%;
+    background-image: linear-gradient(to right bottom, #ff33be, #0558ff);
+    height: 50vh;
+    color: #ffffff;
+    padding: 30px 30px 30px 30px;
+  }
+  .mobile-top-page2-img-1 {
+    width: 25% !important;
+    max-width: 250px;
+    position: absolute;
+    bottom: 0%;
+    right: 55%;
+  }
+  .mobile-top-page2-img-2 {
+    width: 25% !important;
+    max-width: 250px;
+    position: absolute;
+    top: 0%;
+    left: 55%;
+  }
+  .mobile-bottom-page2-btn {
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 14px;
+    margin: 0px 10px;
+  }
+  /* This is Mobile Page 3 Styling */
+
+  .mobile-page-top3 {
+    background-color: #1034a6;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .mobile-page-bottom3-no-img {
+    display: block !important;
+    width: 100%;
+    background-color: #111e6c;
+    height: 50vh;
+    color: #ffffff;
+    padding: 30px 30px 30px 30px;
+  }
+  .mobile-top-page3-img-1 {
+    width: 28% !important;
+    max-width: 250px;
+    position: absolute;
+    bottom: -30%;
+    right: 50%;
+  }
+  .mobile-top-page3-img-2 {
+    width: 23% !important;
+    max-width: 250px;
+    position: absolute;
+    top: -30%;
+    left: 50%;
+  }
+  .mobile-bottom-page3-btn {
+    background-color: #ffffff00;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 14px;
+    margin: 0px 10px;
+  }
+
+  /* This is Mobile Page 4 Styling */
+
+  .mobile-page-top4 {
+    background-color: #0e111a;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .mobile-page-bottom4-no-img {
+    display: block !important;
+    width: 100%;
+    background-color: #19223d;
+    height: 50vh;
+    color: #ffffff;
+    padding: 30px 30px 30px 30px;
+  }
+  .mobile-top-page4-img-1 {
+    width: 28% !important;
+    max-width: 250px;
+    position: absolute;
+    bottom: -20%;
+    right: 50%;
+  }
+  .mobile-top-page4-img-2 {
+    width: 28% !important;
+    max-width: 250px;
+    position: absolute;
+    top: -20%;
+    left: 50%;
+  }
+  .mobile-top-page4-img-3 {
+    width: 25% !important;
+    max-width: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .mobile-top-page4-img-4 {
+    width: 23% !important;
+    max-width: 250px;
+    position: absolute;
+    top: 10%;
+    right: -10%;
+  }
+  .mobile-top-page4-img-5 {
+    width: 28% !important;
+    max-width: 250px;
+    position: absolute;
+    bottom: -10%;
+    right: -5%;
+  }
+
+  /* This is Mobile Page 5 Styling */
+
+  .mobile-page-top5 {
+    background-color: #00fff3;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .mobile-page-bottom5-no-img {
+    display: block !important;
+    width: 100%;
+    background-color: #0071e6;
+    height: 50vh;
+    color: #ffffff;
+    padding: 30px 30px 30px 30px;
+  }
+  .mobile-top-page5-img-1 {
+    width: 28% !important;
+    max-width: 200px;
+    position: absolute;
+    bottom: 0%;
+    left: 1%;
+  }
+  .mobile-top-page5-img-2 {
+    width: 28% !important;
+    max-width: 200px;
+    position: absolute;
+    top: -20%;
+    left: 30%;
+  }
+  .mobile-top-page5-img-3 {
+    display: none;
+    width: 28% !important;
+    max-width: 200px;
+    position: absolute;
+    top: -80%;
+    left: 1%;
+  }
+  .mobile-top-page5-img-4 {
+    width: 28% !important;
+    max-width: 200px;
+    position: absolute;
+    bottom: -30%;
+    left: 52%;
+  }
+  .mobile-top-page5-img-5 {
+    width: 28% !important;
+    max-width: 200px;
+    position: absolute;
+    bottom: 20%;
+    right: -10%;
+  }
+
+  /* This is Mobile Page 6 Styling */
+
+  .mobile-page-top6 {
+    background-image: url("../img/interior.jpg");
+    background-size: cover;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .mobile-page-bottom6-no-img {
+    display: block !important;
+    width: 100%;
+    background-color: #000068;
+    height: 50vh;
+    color: #ffffff;
+    padding: 30px 30px 30px 30px;
+  }
+  .mobile-top-page6-img-1 {
+    width: 100% !important;
+  }
+
+  /* This is Mobile Page 7 Styling */
+
+  .mobile-page-top7 {
+    background-color: #0cdc73;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile-page-bottom7-with-img {
+    display: block !important;
+    width: 100%;
+    background-color: #01a368;
+    height: 50vh;
+    color: #ffffff;
+    padding: 0px 30px 30px 30px;
+  }
+  .mobile-bottom-page7-img {
+    background-color: white;
+    position: relative;
+    bottom: 10%;
+    min-width: 200px !important;
+    width: 40% !important;
+    max-width: 230px !important;
+    border-radius: 0px;
+    border: solid 2px #01a368;
+    border-radius: 15px;
+  }
+  .mobile-bottom-page-7-img img {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .mobile-top-page7-img-1 {
+    width: 40% !important;
+    max-width: 250px;
+    position: relative;
+    bottom: -20%;
+    right: -5%;
+  }
+  .mobile-top-page7-img-2 {
+    width: 30% !important;
+    max-width: 250px;
+    position: relative;
+    bottom: -25%;
+    right: 5%;
+  }
+  .mobile-bottom-page7-btn {
+    background-color: #ffffff00;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 14px;
+    margin: 0px 10px;
+  }
+}
